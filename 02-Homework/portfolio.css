@@ -12,11 +12,14 @@ body {
 .container {
     margin-top: 90px;
     background-color: whitesmoke;
-    
 }
 
 .container h1 {
     font-family: 'Bitter', serif;
     font-size: 30px;
     border-bottom: thin, darkslategrey, solid;
+}
+
+form {
+    width: 500px;
 }
