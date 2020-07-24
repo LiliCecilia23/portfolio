@@ -5,3 +5,16 @@
     margin-top: -10px;
     margin-bottom: 15px;
 }
+body {
+    background-color: lightslategray;
+}
+
+.container {
+    margin-top: 90px;
+    background-color: whitesmoke;
+}
+
+.container h1 {
+    font-family: 'Bitter', serif;
+    font-size: 30px;
+}
