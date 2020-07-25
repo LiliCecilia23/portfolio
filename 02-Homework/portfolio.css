@@ -23,3 +23,7 @@ body {
 form {
     width: 500px;
 }
+
+.image-fluid {
+    float: left;
+}
