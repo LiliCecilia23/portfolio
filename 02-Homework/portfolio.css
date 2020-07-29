@@ -4,22 +4,21 @@
     font-size: 40px;
     margin-top: -10px;
     margin-bottom: 15px;
-    background-color: #038C5A;
-    color: #F29C50;
 }
+
 body {
-    background-color:#A64E5E;
+    background-color:#2D7A91;
 }
 
 .container {
     margin-top: 90px;
-    background-color: #F29C50;
+    background-color: #27515E;
 }
 
 .container h1 {
     font-family: 'Bitter', serif;
     font-size: 30px;
-    border-bottom: thin,#038C5A, solid;
+    border-bottom: thin, solid;
 }
 
 form {
