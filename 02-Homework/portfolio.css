@@ -4,20 +4,22 @@
     font-size: 40px;
     margin-top: -10px;
     margin-bottom: 15px;
+    background-color: #038C5A;
+    color: #F29C50;
 }
 body {
-    background-color: lightslategray;
+    background-color:#A64E5E;
 }
 
 .container {
     margin-top: 90px;
-    background-color: whitesmoke;
+    background-color: #F29C50;
 }
 
 .container h1 {
     font-family: 'Bitter', serif;
     font-size: 30px;
-    border-bottom: thin, darkslategrey, solid;
+    border-bottom: thin,#038C5A, solid;
 }
 
 form {
