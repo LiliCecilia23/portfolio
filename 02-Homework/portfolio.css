@@ -13,6 +13,7 @@ body {
 .container {
     margin-top: 110px;
     background-color: #27515E;
+    width: fit-content;
 }
 
 .container h1 {
@@ -20,10 +21,22 @@ body {
     font-size: 30px;
 }
 
+#pgraph {
+    font-size: large;
+}
+
 form {
     width: 500px;
 }
 
-.image-fluid {
-    float: left;
+.active {
+   font-weight: bolder;
+    
+}
+
+.fas {
+    position: absolute;
+    right: 25px;
+    top: 45px;
+    color: gray;
 }
