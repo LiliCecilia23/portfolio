@@ -22,7 +22,7 @@ body {
 }
 
 .pgraph {
-    font-size: larger;
+    font-size: 19px;
 }
 
 form {
@@ -30,8 +30,7 @@ form {
 }
 
 .active {
-   font-weight: bolder;
-    
+   font-weight: bolder; 
 }
 
 .fas {
