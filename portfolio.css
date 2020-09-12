@@ -1,19 +1,35 @@
 .navbar-brand {
     font-family: 'Pacifico', cursive;
+    color: #D9A679;
     height: 40px;
     font-size: 40px;
     margin-top: -10px;
     margin-bottom: 15px;
 }
 
+.navbar {
+    background-color: #1C2621;
+    border-bottom: dashed 2px #F2F2F2;  
+}
+
+.navbar a {
+    color: #697363;
+}
+
 body {
-    background-color:#2D7A91;
+    background-image: url("./Assets/Images/background.jpg");
+    background-color: #cccccc;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100%;
 }
 
 .container {
     margin-top: 110px;
-    background-color: #27515E;
+    background-color: rgba(105,115,99,0.7);
     width: fit-content;
+    color: #D9A679;
+    /* border: solid 5px #888C69; */
 }
 
 .container h1 {
@@ -30,7 +46,7 @@ form {
 }
 
 .active {
-   font-weight: bolder; 
+   font-weight: bolder;
 }
 
 .fas {
