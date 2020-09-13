@@ -20,7 +20,7 @@
 body {
     background-image: url("./Assets/Images/background.jpg");
     background-color: #cccccc;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
@@ -55,6 +55,14 @@ img {
     text-align: center;
     margin: auto;
     color: #D9A679;
+}
+
+.card {
+    background-color: #D9A679;
+}
+
+.card-title {
+    color: #1C2621;
 }
 
 .pgraph {
