@@ -1,5 +1,5 @@
 .navbar-brand {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
     color: #D9A679;
     height: 40px;
     font-size: 40px;
@@ -9,11 +9,12 @@
 
 .navbar {
     background-color: #1C2621;
-    border-bottom: dashed 2px #F2F2F2;  
+    border-bottom: dashed 3px white;  
 }
 
+
 .navbar a {
-    color: #697363;
+    color: white;
 }
 
 body {
@@ -24,17 +25,36 @@ body {
     height: 100%;
 }
 
+.container a {
+    color: white;
+}
+
+img {
+    border: dashed 3px white;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
 .container {
     margin-top: 110px;
     background-color: rgba(105,115,99,0.7);
     width: fit-content;
-    color: #D9A679;
+    color:white;
     /* border: solid 5px #888C69; */
 }
 
+.container button {
+    background-color: #1C2621;
+}
+
 .container h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
     font-size: 30px;
+    text-align: center;
+    margin: auto;
+    color: #D9A679;
 }
 
 .pgraph {
@@ -55,3 +75,4 @@ form {
     top: 45px;
     color: gray;
 }
+
