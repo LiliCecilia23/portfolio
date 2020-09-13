@@ -61,8 +61,15 @@ img {
     background-color: #D9A679;
 }
 
+.card img {
+    height: 150px;
+    width: 250px;
+}
+
 .card-title {
     color: #1C2621;
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
 }
 
 .pgraph {
