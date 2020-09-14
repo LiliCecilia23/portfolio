@@ -73,6 +73,26 @@ img {
     font-size: 25px;
 }
 
+.list-group-item {
+    background-color: transparent;
+    border-top: 1px solid #ddd;
+    border-radius: 0;
+    color: #fff;
+}
+
+li i {
+    font-size: 25px;
+}
+
+.pink{
+    color: #D9A679;
+}
+
+.satisfy {
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+}
+
 .pgraph {
     font-size: 19px;
 }
