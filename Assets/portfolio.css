@@ -18,7 +18,7 @@
 }
 
 body {
-    background-image: url("./Assets/Images/background.jpg");
+    background-image: url("Images/background.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,6 +95,7 @@ li i {
 
 .pgraph {
     font-size: 19px;
+    font-family: 'lato', sans-serif;
 }
 
 form {
