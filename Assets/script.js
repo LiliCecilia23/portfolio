@@ -3,7 +3,7 @@ $('#gitLink').click(function(){
     window.open('https://github.com/LiliCecilia23', '_blank'); 
 });
 $('#liLink').click(function(){
-    window.open('https://www.linkedin.com/in/lili-clift-a530bb162/', '_blank'); 
+    window.open('https://www.linkedin.com/in/lili-clift/', '_blank'); 
 });
 
 //portolio links
@@ -31,3 +31,15 @@ $('#code4').click(function(){
 $('#page4').click(function(){
     window.open('https://lilicecilia23.github.io/password-generator/', '_blank'); 
 });
+$('#code5').click(function(){
+    window.open('https://github.com/LiliCecilia23/Parks_n_Req', '_blank'); 
+});
+$('#page5').click(function(){
+    window.open('https://salty-hamlet-73070.herokuapp.com/', '_blank'); 
+});
+$('#code6').click(function(){
+    window.open('https://github.com/LiliCecilia23/team-management-template', '_blank'); 
+});
+// $('#page6').click(function(){
+//     window.open('https://lilicecilia23.github.io/password-generator/', '_blank'); 
+// });
