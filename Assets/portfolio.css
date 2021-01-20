@@ -1,36 +1,9 @@
-.navbar-brand {
-    font-family: 'Satisfy', cursive;
-    color: #D9A679;
-    height: 40px;
-    font-size: 40px;
-    margin-top: -10px;
-    margin-bottom: 15px;
-}
-
-.navbar {
-    background-color: #1C2621;
-    border-bottom: dashed 3px white;  
-}
-
-
-.navbar a {
-    color: white;
-}
-
 #landing {
     width: auto; height: 600px; margin-bottom: 10px;
 }
 
 body {
     background-color: #111011;
-}
-
-/* .container a {
-    color: white;
-} */
-
-img {
-    border: dashed 3px white;
 }
 
 .roboto {
@@ -41,57 +14,16 @@ img {
     font-family: 'Nova Flat', cursive;
 }
 
-/* .container {
-    margin-top: 110px;
-    background-color: rgba(105,115,99,0.7);
-    width: fit-content;
-    color:white;
-    border: solid 5px #888C69;
-} */
-
-/* .container button {
-    background-color: #1C2621;
-} */
-
-/* .container h1 {
-    font-family: 'Satisfy', cursive;
-    font-size: 30px;
-    text-align: center;
+#carousel {
+    width: 60%;
     margin: auto;
-    color: #D9A679;
-} */
+}
+
 
 #name {
     position: absolute;
     bottom: 125px;
     left: 50px;
-}
-
-.card {
-    background-color: #D9A679;
-}
-
-.card img {
-    height: 150px;
-    width: 250px;
-}
-
-.card-title {
-    color: #1C2621;
-    font-family: 'Satisfy', cursive;
-    font-weight: bolder;
-    font-size: 25px;
-}
-
-.list-group-item {
-    background-color: transparent;
-    border-top: 1px solid #ddd;
-    border-radius: 0;
-    color: #fff;
-}
-
-li i {
-    font-size: 25px;
 }
 
 .pink{
@@ -103,14 +35,18 @@ li i {
     color: #9abca7;
 }
 
-.pgraph {
-    font-size: 19px;
-    font-family: 'lato', sans-serif;
+.btn {
+    font-family: 'Nova Flat', cursive;
+    background-color: #ceb7b3;
+    color:#111011;
 }
 
-form {
-    width: 500px;
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
 }
+
 
 .active {
    font-weight: bolder;
