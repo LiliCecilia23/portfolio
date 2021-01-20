@@ -1,3 +1,4 @@
+
 //home page links
 $('#gitLink').click(function(){
     window.open('https://github.com/LiliCecilia23', '_blank'); 
@@ -43,3 +44,5 @@ $('#code6').click(function(){
 // $('#page6').click(function(){
 //     window.open('https://lilicecilia23.github.io/password-generator/', '_blank'); 
 // });
+
+

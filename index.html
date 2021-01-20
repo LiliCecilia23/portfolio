@@ -3,6 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Reset CSS sheet -->
@@ -12,82 +13,115 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- Google Font(s) -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Satisfy&display=swap" rel="stylesheet">    
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto+Slab&family=Nova+Flat&display=swap" rel="stylesheet">
+
     <!-- FontAwesome CDN -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     
     <!-- My Stylesheet -->
     <link rel="stylesheet" href="Assets/portfolio.css">
+
+    <!-- Vanta Background Animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js"></script>
+    
     <title>Lili Clift</title>
-  </head>
+  
+    </head>
   <body>
 
-    <nav class="navbar navbar-expand-md fixed-top p-3">
-        <!-- Name Header -->
-        <h1 class="navbar-brand pl-3">Lili Clift</h1>
-      
-        <!-- This changes Navbar to collapsed button -->
-        <button class="navbar-toggler bg-light text-secondary" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-            <ul class="nav">
-                <li class="nav-item lato">
-                    <a class="nav-link active" href="index.html">About Me</a>
-                </li>
-                <li class="nav-item lato">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item lato">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>   
-            </ul>
-        </div>
-    </nav>
-    <div class="row mt-3 mb-5 lato">
-        <div class="mx-5 py-3 container rounded float-left" style="width: fit-content;">
-            <div class="p-3">
-                <img src="./Assets/Images/picofme.jpeg" class="rounded-circle" alt="Picture of Lili Clift">
-            </div>
-            <div class="p-3 text-center">
-                <h1>⟹ Profiles ⟸</h1>
-                <button type="button" id="gitLink" class="btn btn-outline-light rounded mt-3 mr-3"><i class="fab fa-github mr-1"></i>GitHub</button>
-                <button type="button" id="liLink" class="btn btn-outline-light rounded mt-3"><i class="fab fa-linkedin mr-1"></i>LinkedIn</button>
-            </div> 
-        </div>
-
-        <div class="container p-3 rounded col-md-6 float-right text-center">
-            <div class="row">
-                <h1>⟹ About Me ⟸</h1>
-            </div>
-            <div class="row px-3">
-                <div class="p-3 mt-n1 mb-n1 lato">
-                    <p class="pgraph">
-                        Hello! My name is Lili Clift. I am a student in full-stack web development at The University of Texas' 
-                        Coding Bootcamp. I graduated from UT in 2014 with my Bachelor of 
-                        Arts degree in English literature. While I enjoyed studying English; 
-                        after graduating, I found there was little opportunity for work
-                        in that field, so I decided to pursue my interest in coding! 
-                    </p>
-                    <p class="text-break pgraph">
-                        Since starting the bootcamp, I have worked with HTML5, CSS3, Bootstrap, JavaScript,
-                        node.js, Moment.js, jQuery, MySQL, Sequelize, MongoDB, as well as various web APIs. I have developed
-                        applications using all of these technologies, and have recently started some
-                        small freelance projects. I'd love to work with you, 
-                        <a style="color: #D9A679;" class="satisfy ml-1 font-weight-bold" href="contact.html">let's connect!</a>
-                    </p>
-                </div>
-            </div>
+    <div class="jumbotron jumbotron-fluid " id="landing">
+        <div class="container" id="name">
+          <h1 class="display-4 bungee pt-5 ">Lili Clift</h1>
+          <hr class="my-2">
+          <p class="nova pink">Hello! This is my web development portfolio; if you'd like to
+              work together, let's connect!
+          </p>
         </div>
     </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <div class="container">
+        <h2 class="bungee">My Projects</h2>
+        <div class="carousel-item">
+            <img src="..." alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>...</h5>
+              <p>...</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="..." alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>...</h5>
+              <p>...</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="..." alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>...</h5>
+              <p>...</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="..." alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>...</h5>
+              <p>...</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="..." alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>...</h5>
+              <p>...</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="..." alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>...</h5>
+              <p>...</p>
+            </div>
+        </div>
+    </div> 
+    <div class="container col-md-6 rounded p-3 lato pt-4">
+        <div class="row rounded px-3">
+          <h1>⟹ Let's Connect ⟸</h1>
+        </div>
+        <div class="row">
+          <ul class="list-group list-group-flush pl-4">
+            <li class="list-group-item"><i class="fab fa-github pink mr-2"></i><a href="https://github.com/LiliCecilia23" target="_blank">GitHub</a></li>
+            <li class="list-group-item"><i class="fab fa-linkedin pink mr-2"></i><a href="https://www.linkedin.com/in/lili-clift/" target="_blank">LinkedIn</a></li>
+            <li class="list-group-item"><i class="fab fa-twitter-square mr-2 pink"></i><a href="https://twitter.com/Lili_Cece23" target="_blank">Twitter</a></li>
+            
+          </ul>
+          <ul class="list-group list-group-flush pr-4">
+            <li class="list-group-item"><span class="pink satisfy mr-2">Phone</span> (512) 738 - 3988</li>
+            <li class="list-group-item"><span class="pink satisfy mr-2">Email</span> liliclift@gmail.com</li>
+            <li class="list-group-item"><span class="pink satisfy mr-2">Resume</span><a href="Assets/Lili Clift Resume (1) 10.2020.pdf" target="_blank">Click to View</a></li>
+          </ul>
+        </div>  
+    </div>   
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="Assets/script.js"></script>
+    <script>
+        VANTA.NET({
+            el: "#landing",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x434343,
+            backgroundColor: 0x111011
+        })
+    </script>
   </body>
 </html>

@@ -17,44 +17,54 @@
     color: white;
 }
 
-body {
-    background-image: url("Images/background.jpg");
-    background-color: #cccccc;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+#landing {
+    width: auto; height: 600px; margin-bottom: 10px;
 }
 
-.container a {
-    color: white;
+body {
+    background-color: #111011;
 }
+
+/* .container a {
+    color: white;
+} */
 
 img {
     border: dashed 3px white;
 }
 
-.lato {
-    font-family: 'Lato', sans-serif;
+.roboto {
+    font-family: 'Roboto Slab', serif;
 }
 
-.container {
+.nova {
+    font-family: 'Nova Flat', cursive;
+}
+
+/* .container {
     margin-top: 110px;
     background-color: rgba(105,115,99,0.7);
     width: fit-content;
     color:white;
-    /* border: solid 5px #888C69; */
-}
+    border: solid 5px #888C69;
+} */
 
-.container button {
+/* .container button {
     background-color: #1C2621;
-}
+} */
 
-.container h1 {
+/* .container h1 {
     font-family: 'Satisfy', cursive;
     font-size: 30px;
     text-align: center;
     margin: auto;
     color: #D9A679;
+} */
+
+#name {
+    position: absolute;
+    bottom: 125px;
+    left: 50px;
 }
 
 .card {
@@ -85,12 +95,12 @@ li i {
 }
 
 .pink{
-    color: #D9A679;
+    color: #ceb7b3;
 }
 
-.satisfy {
-    font-family: 'Satisfy', cursive;
-    font-size: 20px;
+.bungee {
+    font-family: 'Bungee Shade', cursive;
+    color: #9abca7;
 }
 
 .pgraph {
