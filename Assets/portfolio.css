@@ -14,11 +14,14 @@ body {
     font-family: 'Nova Flat', cursive;
 }
 
+.icon {
+    font-size: 35px;
+}
+
 #carousel {
     width: 60%;
     margin: auto;
 }
-
 
 #name {
     position: absolute;
@@ -47,15 +50,8 @@ body {
     top: 0;
 }
 
-
 .active {
    font-weight: bolder;
 }
 
-.fas {
-    position: absolute;
-    right: 25px;
-    top: 45px;
-    color: gray;
-}
 
