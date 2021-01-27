@@ -19,18 +19,26 @@ body {
 }
 
 #carousel {
-    width: 60%;
     margin: auto;
 }
 
-#name {
+/* #name {
     position: absolute;
     bottom: 125px;
     left: 50px;
-}
+} */
 
 .pink{
     color: #ceb7b3;
+}
+
+#me {
+    height: 300px;
+}
+
+a:hover {
+    color: #9abca7;
+    text-decoration: none; 
 }
 
 .bungee {
