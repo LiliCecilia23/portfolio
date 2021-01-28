@@ -22,11 +22,24 @@ body {
     margin: auto;
 }
 
-/* #name {
-    position: absolute;
-    bottom: 125px;
-    left: 50px;
-} */
+.card {
+    width: 350px;
+    background-color: #9abca7;
+    font-family: 'Nova Flat', cursive;
+    color:#111011;
+    min-height: 450px;
+    min-width: 350px;
+    margin-right: 5px;
+}
+
+.card-img-top {
+    width: 315px;
+    height: 180px;
+}
+
+.card a {
+    color: #111011;
+}
 
 .pink{
     color: #ceb7b3;
