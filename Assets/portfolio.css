@@ -110,6 +110,9 @@ html {
 ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
+    -webkit-overflow-scrolling: Auto;
+
+
   }
   
   /* Track */
@@ -126,3 +129,4 @@ html {
   ::-webkit-scrollbar-thumb:hover {
     background: white;
   }
+  
