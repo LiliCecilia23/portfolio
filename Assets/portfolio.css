@@ -106,28 +106,4 @@ html {
     border-right-width: 4px;
   }
 
-  /* width */
-::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;
-    -webkit-overflow-scrolling: Auto;
-
-
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #111011;
-    display: block !important;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: red;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: white;
-  }
   
