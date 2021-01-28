@@ -11,7 +11,7 @@ $('#liLink').click(function(){
 $('#code1').click(function(){
     window.open('https://github.com/LiliCecilia23/inBloom', '_blank'); 
 });
-$('#page1').click(function(){
+$('#pageOne').click(function(){
     window.open('https://in-bloom.herokuapp.com/', '_blank'); 
 });
 $('#code2').click(function(){
