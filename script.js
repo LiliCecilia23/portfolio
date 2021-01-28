@@ -12,7 +12,7 @@ $('#code1').click(function(){
     window.open('https://github.com/LiliCecilia23/inBloom', '_blank'); 
 });
 $('#page1').click(function(){
-    window.open('in-bloom.herokuapp.com/', '_blank'); 
+    window.open('https://in-bloom.herokuapp.com/', '_blank'); 
 });
 $('#code2').click(function(){
     window.open('https://github.com/LiliCecilia23/Parks_n_Req', '_blank'); 
