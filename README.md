@@ -1,4 +1,5 @@
-#Portfolio
+# Portfolio
+
 <img src="./Assets/Images/Brand.png" alt="Lili Clift portfolio landing page">
 
 Hi! This is my professional portfolio that I created to connect with fellow web developers and potential employers. Check it out [here!]("https://lilicecilia23.github.io/portfolio/")
