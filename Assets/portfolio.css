@@ -118,6 +118,7 @@ html {
   /* Track */
   ::-webkit-scrollbar-track {
     background: #111011;
+    display: block !important;
   }
   
   /* Handle */
